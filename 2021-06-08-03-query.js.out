@@ -1,0 +1,66 @@
+2021-06-08 13:43:00        API/INIT: Api will be available in a limited mode since the provider does not support subscriptions
+2021-06-08 13:43:03        METADATA: Unknown types found, no types for , ProxyAnnouncement,MaxPending, ProxyDefinition,MaxProxies, WeakVec
+Genesis hash: 0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e
+Runtime version: {"specName":"westend","implName":"parity-westend","authoringVersion":2,"specVersion":9033,"implVersion":0,"apis":[["0xdf6acb689907609b",3],["0x37e397fc7c91f5e4",1],["0x40fe3ad401f8959a",5],["0xd2bc9897eed08f15",2],["0xf78b278be53f454c",2],["0xaf2c0297a23e6d3d",1],["0x49eaaf1b548a0cb0",1],["0x91d5df18b0d2cf58",1],["0xed99c5acb25eedf5",2],["0xcbca25e39f142387",2],["0x687ad44ad37f03c2",1],["0xab3c0572291feb8b",1],["0xbc9d89904f5b923f",1],["0x37c8bb1350a9a2a8",1]],"transactionVersion":5}
+Library info: @polkadot/api v4.11.2
+Chain name: Westend
+Last block number: 5964376
+Last block hash: 0xbdc8b7ab2b09d6d6f65517b39100f84f42c55080f0ebebbd0ab8c1f2f9539959
+Nonce: 4
+Referendum count: undefined
+Free balance: 3635749993809
+Reserved balance: 1002050000000
+Validator stash account: 5CFPcUJgYgWryPaV1aYjSbTpbTLu42V32Ytw1L9rfoMAsfGh
+Total: 14404741761400705
+Own: 12031562687827747
+-----------------
+Validator stash account: 5GTD7ZeD823BjpmZBCSzBQp7cvHR1Gunq7oDkurZr9zUev2n
+Total: 9899990000000000
+Own: 9899990000000000
+-----------------
+Validator stash account: 5G1ojzh47Yt8KoYhuAjXpHcazvsoCXe3G8LZchKDvumozJJJ
+Total: 14404742771696727
+Own: 12178906223699137
+-----------------
+Validator stash account: 5Ek5JCnrRsyUGYNRaEvkufG1i1EUxEE9cytuWBBjA9oNZVsf
+Total: 10213719409196897
+Own: 10199950300000000
+-----------------
+Validator stash account: 5FZoQhgUCmqBxnkHX7jCqThScS2xQWiwiF61msg63CFL3Y8f
+Total: 15890478633803230
+Own: 12454145154484663
+-----------------
+Validator stash account: 5DUGF2j9PsCdQ9okZfRoiCgbSeq3TUEAwuHvBQ3qjX4Nz4oR
+Total: 2479487754398988
+Own: 1757917769775244
+-----------------
+Validator stash account: 5FbpwTP4usJ7dCFvtwzpew6NfXhtkvZH1jY4h6UfLztyD3Ng
+Total: 5006730515654523
+Own: 851826827929643
+-----------------
+Validator stash account: 5HYYWyhyUQ7Ae11f8fCid58bhJ7ikLHM9bU8A6Ynwoc3dStR
+Total: 14404771339249548
+Own: 12271513559385747
+-----------------
+Block details:  {
+  block: {
+    header: {
+      parentHash: '0xabe41da797e7870b0d70c42e727a1fd5e275b726bfa4d7b74193f94b545b7674',
+      number: '4,626,906',
+      stateRoot: '0xa7264a89b5d18b22e556b505dc5299216f79e3a79d2f6ef985d962bcf1f982db',
+      extrinsicsRoot: '0xda509ff35714eabe010287efbe87a7f140695ec7bf0c81dbed5ce0897309e4e5',
+      digest: [Object]
+    },
+    extrinsics: [ [Object] ]
+  },
+  justifications: null
+}
+Block timestamp: 1614857580000
+Block era: 3395
+Block session: 7938
+Event 0:  {
+  method: 'ExtrinsicSuccess',
+  section: 'system',
+  index: '0x0000',
+  data: [ { weight: '161,097,000', class: 'Mandatory', paysFee: 'Yes' } ]
+}
