@@ -28,3 +28,13 @@ telemetry: https://telemetry.polkadot.io/#list/Westend
 health-check: curl http://westend.rpc.acala.uno:1111/health
 rpc-endpoint: http://westend.rpc.acala.uno:1111
 ```
+
+#### Output from running health-check
+
+```
+{
+ "isSyncing": false,
+ "peers": 50,
+ "shouldHavePeers": true
+}
+```
