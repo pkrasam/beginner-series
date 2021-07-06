@@ -23,7 +23,7 @@ const main = async () => {
   console.log(`Last block hash: ${lastHeader.hash}`);
 
   // 2. Query account details
-  const { nonce, refcount, data: balance } = await api.query.system.account(process.env.ADDRESS);
+  const { nonce, refcount, data: balance } = await api.query.system.account(process.env.EDUCATION_STASH_ADDRESS);
   console.log(`Nonce: ${nonce}`);
   console.log(`Referendum count: ${refcount}`);
   console.log(`Free balance: ${balance.free}`);

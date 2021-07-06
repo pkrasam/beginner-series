@@ -8,14 +8,17 @@ const main = async () => {
   const keyring = new Keyring({type: 'sr25519'});
   
   const AMOUNT = 100000000000; // 1/10 of a WND
-  const RECIPIENT_ADDRESS = '5=HWBAg1nZkznSPmVAcyuHFn7pSuDBxdjhJXHX3k7AqHp7jGV';
+  const RECIPIENT_A_ADDRESS = process.env.EDUCATION_PROXY_A_ADDRESS;
+  const RECIPIENT_B_ADDRESS = process.env.EDUCATION_PROXY_B_ADDRESS;
+  const RECIPIENT_ADDRESS = RECIPIENT_A_ADDRESS;
+  //const RECIPENT_ADDRESS = RECIPIENT_B_ADDRESS;
 
   // Initialize account from the mnemonic
-  const account = keyring.addFromUri(process.env.MNEMONIC);
+  const account = keyring.addFromUri(process.env.EDUCATION_STASH_MNEMONIC);
 
   // Retrieve account from the address
   const now = await api.query.timestamp.now();
-  const { data: balance } = await api.query.system.account(process.env.ADDRESS);
+  const { data: balance } = await api.query.system.account(process.env.EDUCATION_STASH_ADDRESS);
   console.log(`${account.address} has a balance of ${balance.free} at timestamp: ${now}`);
 
   // Transfer tokens
